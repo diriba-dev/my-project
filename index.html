@@ -1,0 +1,337 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DIRIBA STUDIO</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>DIRIBA STUDIO</h1>
+        <p>Professional Photography Studio</p>
+        <h3>Capture Your Beautiful Moments</h3>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- HOME -->
+    <section id="home">
+        <h1>WELCOME TO DIRIBA STUDIO</h1>
+
+        <h2>Capture Your Beautiful Moments</h2>
+
+        <p>
+            Welcome to Diriba Studio.
+            We capture your beautiful moments
+            and keep your memories forever.
+        </p>
+    </section>
+
+
+    <!-- WORKING DAYS -->
+    <section class="working-days">
+
+        <h2>Our Working Days</h2>
+
+        <div class="working-container">
+
+            <div class="working-image">
+                <img src="diriba.jpg"
+                     alt="DIRIBA STUDIO Photographer">
+            </div>
+
+            <div class="working-table">
+
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th>Working Hours</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>8 AM - 6 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>8 AM - 6 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>8 AM - 6 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>8 AM - 6 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>8 AM - 6 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>8 AM - 4 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+		
+		
+		
+    </section>
+
+
+    <!-- ABOUT US -->
+    <section id="about" class="about">
+
+        <h2>About Us</h2>
+
+        <h3>Welcome to DIRIBA STUDIO</h3>
+
+        <p>
+            DIRIBA STUDIO is a professional photography studio
+            dedicated to capturing your beautiful moments.
+            We provide high-quality photography services for
+            weddings, birthdays, graduation and special events.
+        </p>
+
+        <p>
+            Our goal is to preserve your special memories
+            through beautiful and creative photography.
+        </p>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery">
+
+        <h2>OUR GALLERY</h2>
+
+        <p>Explore our beautiful photography works.</p>
+
+        <div class="gallery-container">
+
+            <div class="gallery-item">
+                <img src="Wedding.jpg" alt="Wedding">
+                <h3>Wedding</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="graduation.jpg" alt="Graduation">
+                <h3>Graduation</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="birthday.jpg" alt="Birthday">
+                <h3>Birthday</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="Portrati.jpg" alt="Portrait">
+                <h3>Portrait</h3>
+            </div>
+
+            <div class="gallery-item">
+                <img src="Nature.jpg" alt="Nature">
+                <h3>Nature</h3>
+            </div>
+ <div class="gallery-item">
+                <img src="event.jpg" alt="Events">
+                <h3>Events</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- IMAGE VIEWER -->
+    <div id="imageViewer" class="image-viewer">
+
+        <span id="closeViewer">&times;</span>
+
+        <button type="button" id="prevBtn">❮</button>
+
+        <img id="fullImage"
+             src=""
+             alt="Selected Photo">
+
+        <button type="button" id="nextBtn">❯</button>
+
+    </div>
+
+<!-- BOOKING SECTION -->
+<section id="booking" class="booking">
+
+    <h2>BOOK YOUR SESSION</h2>
+
+    <p>
+        Book your photography session with DIRIBA STUDIO.
+        Capture your beautiful moments with us!
+    </p>
+
+     <form action= "https://formsubmit.app/f/j938cjvjqm"
+      method="POST"
+
+        <!-- CUSTOMER NAME -->
+        <input
+            type="text"
+            name="Customer Name"
+            placeholder="Enter Your Full Name"
+            required>
+
+        <!-- EMAIL -->
+        <input
+            type="email"
+            name="Customer Email"
+            placeholder="Enter Your Email"
+            required>
+
+        <!-- PHONE -->
+        <input
+            type="tel"
+            name="Phone Number"
+            placeholder="Enter Your Phone Number"
+            required>
+
+        <!-- PHOTOGRAPHY SERVICE -->
+        <label>Select Photography Service</label>
+
+        <select name="Photography Service" required>
+            <option value="">Choose Your Service</option>
+            <option value="Wedding">Wedding Photography</option>
+            <option value="Graduation">Graduation Photography</option>
+            <option value="Birthday">Birthday Photography</option>
+            <option value="Portrait">Portrait Photography</option>
+            <option value="Nature">Nature Photography</option>
+            <option value="Event">Event Photography</option>
+        </select>
+
+        <!-- BOOKING DATE -->
+        <label>Select Booking Date</label>
+
+        <input
+            type="date"
+            name="Booking Date"
+            required>
+
+        <!-- BOOKING TIME -->
+        <label>Select Booking Time</label>
+
+        <input
+            type="time"
+            name="Booking Time"
+            required>
+
+        <!-- ADDITIONAL MESSAGE -->
+        <textarea
+            name="Additional Information"
+            placeholder="Additional Information">
+        </textarea>
+
+        <!-- EMAIL SUBJECT -->
+        <input
+            type="hidden"
+            name="_subject"
+            value="New Booking - DIRIBA STUDIO">
+
+        <input
+            type="hidden"
+            name="_template"
+            value="table">
+
+        <!-- SUBMIT BUTTON -->
+        <button type="submit">
+            BOOK NOW
+        </button>
+
+    </form>
+
+</section>
+
+    <!-- CONTACT US -->
+    <section id="contact" class="contact">
+
+        <h2>CONTACT US</h2>
+
+        <p>
+            We are ready to capture your beautiful moments!
+        </p>
+
+        <div class="contact-container">
+           
+
+            <!-- CONTACT FORM -->
+         <form action= "https://formsubmit.app/f/j938cjvjqm"
+      method="POST">
+
+    <input type="text" name="name"
+           placeholder="Your Name" required>
+
+    <input type="email" name="email"
+           placeholder="Your Email" required>
+
+    <input type="tel" name="phone"
+           placeholder="Your Phone Number" required>
+
+    <textarea name="message"
+              placeholder="Write Your Message"
+              required></textarea>
+
+    <input type="hidden" name="_subject"
+           value="New Message - DIRIBA STUDIO">
+
+    <button type="submit">Send Message</button>
+
+</form>
+
+ </section>
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>DIRIBA STUDIO</h3>
+
+        <p>Capture Memories Forever!</p>
+
+        <p>
+            Copyright &copy; 2026 Diriba Studio
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
